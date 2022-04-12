@@ -1,2 +1,5 @@
-# meu-portifa
-exercício simulando a criação de um portfolio com HTML e CSS -com o prof. Marcelo diament
+# Meu Portifa - Prática
+- exercício simulando a criação de um portfolio com HTML e CSS 
+- feat. professor Marcelo diament
+
+Readme preview - ``Ctrl + Shift + V``
