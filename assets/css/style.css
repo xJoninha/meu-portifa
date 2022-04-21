@@ -1,0 +1,287 @@
+/* RESET */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+:root {
+    --primaria: #73ff9d;
+    --secundaria: #A0E7E5;
+    --terciaria: #B4F8C8;
+    --clara: #FBE7C6;
+    --escura: #2b2b2b;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: .875rem;
+    --tamanho-fonte-lg: 1.8rem;
+}
+
+* {
+    /* background-color: rgba(255,0,0,.05); */
+    /* border: 1px solsid red; */
+    /* font-size: var(--tamanho-fonte-md); */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+hr {
+  position: relative;
+  right: 9px;
+  width: 800px;
+  border: 1px solid black;
+}
+
+body {
+  background-color: var(--terciaria);
+}
+
+/* .bg-portifa {
+    opacity: .5;
+    position: fixed;
+    z-index: -5;
+    background-attachment: local;
+    background-size: contain;
+    back
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--clara);
+    color: var(--secundaria);
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+  background-color: var(--secundaria);
+  display: flex;
+  position:relative;
+  top: 0;
+  z-index: 3;
+  height: 80px;
+  box-shadow: 0px 1px 4px;
+  border-bottom: 1px solid black;
+}
+
+.h1-header {
+  /* background-color: var(--primaria); */
+  /* box-shadow: 0px 1px 5px; */
+  /* border-radius: 20px; */
+  /* text-decoration: underline; */
+  width: 240px;
+  text-align: center;
+  font-size: var(--tamanho-fonte-lg);
+  position: absolute;
+  left: 40%;
+  top: 20px;
+}
+
+.profi {
+  /* text-decoration: underline; */
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  bottom: 7px;
+  left: 15px;
+}
+
+.contato {
+  position: absolute;
+  display: flex;
+  right: 40px;
+  bottom: 0;
+}
+
+.contato h3 {
+  position: relative;
+  bottom: 20px;
+  left: 130px;
+}
+
+.principal h3 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.texto-start {
+  position: relative;
+  bottom: 23px;
+  left: 120px;
+  width: 220px;
+}
+
+.git {
+  display: flex;
+  justify-content: row;
+}
+
+.git h4 {
+  position: relative;
+  left: 30px;
+  top: 60px;
+  font-size: 25px;
+  width: 175px;
+  height: 30px;
+}
+
+.git img{
+  position: relative;
+  left: 75px;
+  /* display: block;
+  margin: 0 auto; */
+  border: 4px solid white;
+  box-shadow: 1px 3px 3px;
+}
+
+.git p{
+  position: relative;
+  left: 95px;
+  top: 43px;
+  text-align: justify;
+  width: 250px;
+  height: 60px;
+}
+
+.html {
+  display: flex;
+  justify-content: row;
+}
+
+.html p{
+  position: relative;
+  left: 10px;
+  top: 73px;
+  text-align: justify;
+  width: 250px;
+  height: 60px;
+}
+
+.html img {
+  border: 4px solid white;
+  box-shadow: 1px 3px 3px;
+}
+
+.html h4{
+  position: relative;
+  left: 30px;
+  top: 60px;
+  font-size: 25px;
+  width: 175px;
+  height: 30px;
+  text-align: center;
+}
+
+.css {
+  display: flex;
+  justify-content: row;
+}
+
+.css p{
+  position: relative;
+  left: 100px;
+  top: 53px;
+  text-align: justify;
+  width: 250px;
+  height: 60px;
+}
+
+.css img {
+  position: relative;
+  left: 75px;
+  border: 4px solid white;
+  box-shadow: 1px 3px 3px;
+}
+
+.css h4{
+  position: relative;
+  left: 30px;
+  top: 60px;
+  font-size: 25px;
+  width: 175px;
+  height: 30px;
+  text-align: center;
+}
+
+.js {
+  display: flex;
+  justify-content: row;
+}
+
+.js p{
+  position: relative;
+  left: 10px;
+  top: 50px;
+  text-align: justify;
+  width: 230px;
+  height: 70px;
+}
+
+.js img {
+  position: relative;
+  left: 20px;
+  border: 4px solid white;
+  box-shadow: 1px 3px 3px;
+}
+
+.js h4{
+  position: relative;
+  left: 30px;
+  top: 60px;
+  font-size: 25px;
+  width: 175px;
+  height: 30px;
+  text-align: center;
+}
+
+fieldset legend {
+  font-size: var(--tamanho-fonte-sm);
+}
+
+main {
+  position: relative;
+  top: 13px;
+  padding: 8px;
+  width: 800px;
+  border: 1px dashed black;
+}
+
+cite {
+  background-color: var(--terciaria);
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.principal {
+  background-color: var(--secundaria);
+  display: block;
+  margin: 0 auto;
+}
+
+li#ambev {
+  font-style: italic;
+}
+
+#ambev {
+  font-size: 20px;
+}
+
+[target="_blank"] {
+  color: var(--escura);
+}
+
+.exp-prof {
+  position: relative;
+  top: 20px;
+}
